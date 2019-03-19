@@ -1,0 +1,3 @@
+# udev rules to run the wlan configurator and loader
+#
+SUBSYSTEM=="sdio", ACTION=="add", ENV{MODALIAS}=="sdio:c00v0271d050A", RUN="/sbin/wlan-load.sh"
