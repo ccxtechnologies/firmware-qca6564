@@ -35,4 +35,4 @@ else
 	log "5" "MAC Address changed to ${MAC_ADDR}"
 fi
 
-modprobe wlan
+/sbin/modprobe wlan
